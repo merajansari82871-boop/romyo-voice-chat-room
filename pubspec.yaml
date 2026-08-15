@@ -1,0 +1,38 @@
+name: romyo_voice_chat
+description: "Voice Chat App built with Flutter"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.14.0
+
+  # Agora RTC
+  agora_rtc_engine: ^6.2.0
+  permission_handler: ^11.4.4
+
+  # State Management
+  get: ^4.6.5
+
+  # UI
+  cupertino_icons: ^1.0.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_linter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
